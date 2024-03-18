@@ -1,0 +1,14 @@
+body {
+  background-color: #333;
+  font-size: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+}
+
+span {
+  width: 200px;
+}
